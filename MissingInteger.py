@@ -1,9 +1,9 @@
 def solution(A):	# O(n)
-    i=1
-    s=set(A)
-    while i in s:
-        i+=1
-    return i
+    arr=set(A)
+    res=1
+    while res in arr:
+        res+=1
+    return res
 
  # https://app.codility.com/programmers/lessons/4-counting_elements/missing_integer/
 
